@@ -9,7 +9,6 @@ import signal
 import pyfiglet
 
 # define proxies
-
 proxies = {
   'http': 'http://127.0.0.1:8080',
   'https': 'http://127.0.0.1:8080',
@@ -31,8 +30,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 print(pyfiglet.figlet_format("Makdi",font='whimsy'))
 print("The program is configured to send the discovered links to the proxy, posting minimal output to stdout \n\n")
 
-#get_domain = str(input("Input a URL with http/https prepended: "))
-get_domain = "https://darkreader.org"
+get_domain = str(input("Input a URL with http/https prepended: "))
 
 domain = urlparse(get_domain).netloc #extract domain
 
@@ -125,11 +123,4 @@ if str((input("print discovered links to stdout: y/n"))) == 'y' or 'yes':
     export()
 else:
     pass
-
-
-
-
-
-
-
 
