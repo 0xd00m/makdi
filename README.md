@@ -6,4 +6,4 @@ The 2.x community versions of Burp Proxy don't include an active spider tool. Th
 
 As the links are only printed to stdout, if proxy is inaccessible, here a recording where the proxy connection has failed. 
 
-[![asciicast](https://asciinema.org/a/CxEAxGxWLE7UlCbetQqRSOGOt.svg)](https://asciinema.org/a/CxEAxGxWLE7UlCbetQqRSOGOt)
+[![asciicast](https://asciinema.org/a/RNgdvIlycQdPQzqIiTzJ7XQK7.svg)](https://asciinema.org/a/RNgdvIlycQdPQzqIiTzJ7XQK7)
